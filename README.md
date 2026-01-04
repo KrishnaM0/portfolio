@@ -2,8 +2,8 @@
 
 A modern, responsive **developer portfolio website** built using **React + Tailwind CSS**
 
-<!-- 🔗 **Live Demo:** https://your-portfolio-link.com  
-📄 **Resume:** Download available on the website -->
+🔗 **Live Demo:** https://krishnam-portfolio.vercel.app/  
+📄 **Resume:** Download available on the website
 
 ---
 
@@ -23,10 +23,9 @@ A modern, responsive **developer portfolio website** built using **React + Tailw
 ## ✨ Features
 
 - ⚡ Clean & modern UI with dark theme
-- 📱 Fully responsive (mobile-first)
+- 📱 Fully responsive
 - 🧭 Smooth navigation with sticky navbar
 - 🧩 Interactive skills section (category-based)
-- 🗂 Project cards with images, GitHub & Live links
 - 🎨 Reusable components (Glass cards, Section titles)
 
 ---
