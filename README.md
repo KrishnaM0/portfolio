@@ -11,10 +11,10 @@ A modern, responsive **developer portfolio website** built using **React + Tailw
 
 - Home
 - About
+- Education
 - Skills
 - Projects
 - Experience
-- Education
 - Achievements
 - Contact
 
