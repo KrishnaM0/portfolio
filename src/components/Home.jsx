@@ -10,7 +10,7 @@ export default function Home() {
         </p>
         <p className="mt-2 text-gray-400 max-w-xl mx-auto">
           Building scalable, data-driven web applications using
-          React, Node.js & MongoDB
+          React.js, Node.js, Express.js & MongoDB
         </p>
 
         <div className="mt-6 flex justify-center gap-4">
