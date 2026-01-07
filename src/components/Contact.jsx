@@ -65,7 +65,7 @@ function ContactIcon({ icon, label, link }) {
         flex flex-col items-center justify-center
         w-28 h-28
         rounded-xl
-        bg-gradient-to-br from-indigo-500/10 to-purple-500/10
+        bg-linear-to-br from-indigo-500/10 to-purple-500/10
         border border-indigo-500/30
         text-gray-200
         hover:scale-110

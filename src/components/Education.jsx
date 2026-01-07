@@ -39,7 +39,7 @@ export default function Education() {
               <div className="flex flex-col md:flex-row items-center md:items-start gap-6">
 
                 {/* Left: University Logo */}
-                <div className="flex-shrink-0">
+                <div className="shrink-0">
                   <img
                     src={edu.edu_img}
                     alt={edu.affiatedTo}

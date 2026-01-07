@@ -7,7 +7,7 @@ export default function SectionTitle({ title, subtitle }) {
       </div>
 
       <h2 className="relative text-4xl md:text-5xl font-extrabold tracking-wide">
-        <span className="bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">
+        <span className="bg-linear-to-r from-indigo-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">
           {title}
         </span>
       </h2>
@@ -20,7 +20,7 @@ export default function SectionTitle({ title, subtitle }) {
 
       {/* Divider */}
       <div className="mt-6 flex justify-center">
-        <span className="h-1 w-20 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-full"></span>
+        <span className="h-1 w-20 bg-linear-to-r from-indigo-500 to-purple-500 rounded-full"></span>
       </div>
     </div>
   )

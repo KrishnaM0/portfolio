@@ -21,7 +21,7 @@ export default function Experience() {
 
             <p className="text-gray-400 flex items-center gap-2 font-medium">
               <FaCalendarAlt className="text-indigo-400" />
-              June 2024 – July 2024
+              June 2024 - July 2024
             </p>
           </div>
 
