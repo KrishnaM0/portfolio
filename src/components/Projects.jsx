@@ -7,34 +7,34 @@ export default function Projects() {
     {
       title: "EduX - Centralized Smart E-Learning Platform",
       desc: "Built to enhance online learning experiences.",
-      tech: "Node.js · Express · MongoDB",
+      tech: "Node.js · Express.js · MongoDB · REST APIs · Mongoose · EJS · Bootstrap",
       image: "/EduX-img.png",
       github: "https://github.com/KrishnaM0/EduX",
-      // live: "#"
+      live: "https://edux-ad83.onrender.com/"
     },
     {
       title: "StayFinder - Tourist Renting Platform",
       desc: "A platform to discover, list and manage rental properties.",
-      tech: "Node.js · MongoDB · MVC",
+      tech: "Node.js · Express.js · MongoDB · REST APIs · Mongoose · EJS · Bootstrap · MVC",
       image: "/StayFinder-img.png",
       github: "https://github.com/KrishnaM0/StayFinder",
-      // live: "#"
+      live: "https://stayfinder-5vbt.onrender.com/listings"
     },
     {
       title: "Transaction Dashboard",
       desc: "Built a transaction analytics dashboard using third-party API data.",
-      tech: "Node.js · Express · MongoDB",
+      tech: "Node.js · Express.js · MongoDB · REST APIs · Mongoose · Chart.js · EJS ",
       image: "/TransactionDashboard-img.png",
       github: "https://github.com/KrishnaM0/Roxiler",
-      // live: "#"
+      live: "https://transactiondashboard.onrender.com/transactions"
     },
     {
       title: "EngiGenius - A Blogging Website",
       desc: "Blogging platform designed to enable authors to share their ideas.",
-      tech: "Node.js · Express · MongoDB",
+      tech: "Node.js · Express.js · MongoDB · REST APIs · Mongoose · EJS · Bootstrap",
       image: "/EngiGenius-img.png",
       github: "https://github.com/KrishnaM0/EngiGenius",
-      // live: "#"
+      live: "https://engigenius.onrender.com/"
     }
   ]
 
@@ -76,12 +76,12 @@ export default function Projects() {
               >
                 <FaGithub></FaGithub>
               </a>
-              {/* <a
+              <a
                 href={p.live}
-                className="px-4 py-2 text-sm rounded bg-indigo-600 hover:bg-indigo-700 transition"
+                className="px-4 py-2 text-sm rounded border border-indigo-500 hover:bg-indigo-950 transition"
               >
-                Live Demo
-              </a> */}
+              🚀 
+              </a>
             </div>
           </GlassCard>
         ))}
