@@ -8,9 +8,9 @@ export default function Navbar() {
     "About",
     "Education",
     "Skills",
-    "Projects", 
-    "Experience",   
-    // "Achievements",
+    "Projects",  
+    "Experience",  
+    "Achievements",
     "Contact"
   ]
 

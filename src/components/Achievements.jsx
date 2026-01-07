@@ -12,9 +12,10 @@ export default function Achievements() {
       <div className="max-w-4xl mx-auto">
         <GlassCard>
           <ul className="text-gray-300 list-disc list-inside space-y-3">
-            <li>Led a team in Smart India Hackathon (Internal Round)</li>
-            <li>Participated in inter-college hackathons</li>
-            <li>Improved final-year project based on SIH feedback</li>
+            <GlassCard><li>Led a team in Smart India Hackathon (Internal Round)</li></GlassCard>
+            
+            <GlassCard><li>Participated in inter-college hackathons</li></GlassCard>
+            <GlassCard><li>Improved final-year project based on SIH feedback</li></GlassCard>
           </ul>
         </GlassCard>
       </div>

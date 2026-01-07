@@ -11,11 +11,17 @@ export default function Experience() {
 
       <div className="max-w-4xl mx-auto">
         <GlassCard>
-          <div className="flex justify-between">
+          <div className="sm:flex sm:justify-between">
             <h3 className="text-xl font-semibold text-white">
-              Web Content Developer Intern - FinnoExpert
+              Web Content Developer Intern
             </h3>
-            <p className="text-gray-350 mt-1">June 2024 – July 2024</p>
+            <p className="text-gray-350 mt-1 font-semibold">June 2024 – July 2024</p>
+          </div>
+          <div className="sm:flex sm:justify-between">
+            <h3 className="text-gray-350 text-white">
+              @FinnoExpert
+            </h3>
+            <p className="text-gray-350 mt-1">Pune, Maharashtra, India</p>
           </div>
           <ul className="mt-4 text-gray-300 list-disc list-inside space-y-2">
             <li>Assisted in optimizing and redesigning the website.</li>

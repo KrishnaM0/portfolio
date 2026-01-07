@@ -32,7 +32,7 @@ export default function Skills() {
               key={category}
               onClick={() => setActive(category)}
               className={`
-                px-5 py-2 rounded-full text-sm
+                px-5 py-2 rounded-xl text-sm
                 border transition
                 ${
                   active === category
@@ -52,7 +52,7 @@ export default function Skills() {
             <span
               key={skill}
               className="
-                px-6 py-3 rounded-full
+                px-6 py-3 rounded-3xl
                 bg-gradient-to-r from-indigo-500/10 to-purple-500/10
                 border border-indigo-500/30
                 text-gray-200

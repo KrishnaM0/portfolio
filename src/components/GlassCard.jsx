@@ -10,6 +10,7 @@ export default function GlassCard({ children }) {
       hover:border-indigo-500/40
       transition-all duration-300
       shadow-lg
+      mb-3
     ">
       {children}
     </div>
