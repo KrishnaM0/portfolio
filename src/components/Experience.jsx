@@ -50,7 +50,7 @@ export default function Experience() {
                 key={index}
                 className="group flex items-start gap-3 transition"
               >
-                <span className="w-2 h-2 mt-2 rounded-full bg-indigo-400 group-hover:scale-150 transition"></span>
+                <span className="w-2 h-2 mt-2 rounded-full shrink-0 bg-indigo-400 group-hover:scale-150 transition"></span>
                 <span className="group-hover:text-white transition">
                   {item}
                 </span>
