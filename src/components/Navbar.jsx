@@ -20,7 +20,9 @@ export default function Navbar() {
         
             {/* Logo */}
             <a href="#home" className="text-xl font-bold text-indigo-500">
-            Krishna<span className="text-white">.dev</span>
+            {/* Krishna<span className="text-white">.dev</span> */}
+            <span className="text-white">&lt; </span>Krishna<span className="text-cyan-50"> /&gt;</span>
+
             </a>
 
             {/* Desktop Menu */}
