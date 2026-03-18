@@ -1,14 +1,15 @@
- 
+
 import { useState } from "react"
 import SectionTitle from "./SectionTitle"
 
 export default function Skills() {
   const skillsData = {
-    "Programming Languages": ["Java", "JavaScript"],
+    "Programming Languages": ["Java", "JavaScript", "Python", "SQL"],
     "Frontend": ["HTML", "CSS", "Bootstrap", "React.js", "Tailwind CSS"],
     "Backend": ["Node.js", "Express.js", "REST APIs", "Mongoose", "EJS"],
-    "Databases": ["MySQL", "MongoDB", "MongoDB Atlas", "PL/SQL"],
-    "Tools": ["Render", "WordPress", "VS Code", "IntelliJ IDEA", "Git", "GitHub"],
+    "Data & Cloud": ["NumPy", "Pandas", "PySpark", "Azure (Basics)"],
+    "Databases": ["MySQL", "MongoDB", "MongoDB Atlas"],
+    "Tools & Platforms": ["Render", "WordPress", "VS Code", "IntelliJ IDEA", "Git", "GitHub"],
     "Core Concepts": ["OOP", "DBMS", "SDLC"],
     "Soft Skills": ["Teamwork", "Problem Solving", "Adaptability"]
   }
@@ -33,10 +34,10 @@ export default function Skills() {
               onClick={() => setActive(category)}
               className={`
                 px-5 py-2 rounded-xl text-sm
-                border transition
+                border transition-all duration-300
                 ${
                   active === category
-                    ? "bg-indigo-600 text-white border-indigo-600"
+                    ? "bg-indigo-600 text-white border-indigo-600 shadow-md shadow-indigo-500/30"
                     : "border-gray-700 text-gray-400 hover:border-indigo-400 hover:text-indigo-400"
                 }
               `}
@@ -58,7 +59,8 @@ export default function Skills() {
                 text-gray-200
                 hover:scale-110
                 hover:bg-indigo-500/20
-                transition
+                hover:shadow-md hover:shadow-indigo-500/20
+                transition-all duration-300
               "
             >
               {skill}
