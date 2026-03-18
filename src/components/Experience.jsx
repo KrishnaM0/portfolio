@@ -18,25 +18,25 @@ export default function Experience() {
           {/* Role & Duration */}
           <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-2">
             <h3 className="text-xl font-semibold text-white flex items-start gap-2">
-              <FaBriefcase className="text-indigo-400 flex-shrink-0 min-w-[20px]" />
+              <FaBriefcase className="text-indigo-400 shrink-0 min-w-5" />
               Graduate Engineer Trainee (Data & Azure Domain)
             </h3>
 
             <p className="text-gray-400 flex items-center gap-2 font-medium">
-              <FaCalendarAlt className="text-indigo-400 flex-shrink-0 min-w-[18px]" />
-              Jan 2026 – Present
+              <FaCalendarAlt className="text-indigo-400 shrink-0 min-w-4.5" />
+              Jan 2026 - Present
             </p>
           </div>
 
           {/* Company & Location */}
           <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-2 mt-2">
             <p className="text-gray-300 flex items-center gap-2">
-              <FaBuilding className="text-indigo-400 flex-shrink-0 min-w-[18px]" />
+              <FaBuilding className="text-indigo-400 shrink-0 min-w-4.5" />
               LTIMindtree
             </p>
 
             <p className="text-gray-400 flex items-center gap-2">
-              <FaMapMarkerAlt className="text-indigo-400 flex-shrink-0 min-w-[18px]" />
+              <FaMapMarkerAlt className="text-indigo-400 shrink-0 min-w-4.5" />
               Navi Mumbai, India
             </p>
           </div>
@@ -67,25 +67,25 @@ export default function Experience() {
           {/* Role & Duration */}
           <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-2">
             <h3 className="text-xl font-semibold text-white flex items-start gap-2">
-              <FaBriefcase className="text-indigo-400 flex-shrink-0 min-w-[20px]" />
+              <FaBriefcase className="text-indigo-400 shrink-0 min-w-5" />
               Web Content Developer Intern
             </h3>
 
             <p className="text-gray-400 flex items-center gap-2 font-medium">
-              <FaCalendarAlt className="text-indigo-400 flex-shrink-0 min-w-[18px]" />
-              June 2024 – July 2024
+              <FaCalendarAlt className="text-indigo-400 shrink-0 min-w-4.5" />
+              June 2024 - July 2024
             </p>
           </div>
 
           {/* Company & Location */}
           <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-2 mt-2">
             <p className="text-gray-300 flex items-center gap-2">
-              <FaBuilding className="text-indigo-400 flex-shrink-0 min-w-[18px]" />
+              <FaBuilding className="text-indigo-400 shrink-0 min-w-4.5" />
               FinnoExpert
             </p>
 
             <p className="text-gray-400 flex items-center gap-2">
-              <FaMapMarkerAlt className="text-indigo-400 flex-shrink-0 min-w-[18px]" />
+              <FaMapMarkerAlt className="text-indigo-400 shrink-0 min-w-4.5" />
               Pune, Maharashtra, India
             </p>
           </div>
