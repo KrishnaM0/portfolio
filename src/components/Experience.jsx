@@ -16,27 +16,27 @@ export default function Experience() {
         {/* 🔥 Experience 1 — LTIMindtree */}
         <GlassCard>
           {/* Role & Duration */}
-          <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-2">
-            <h3 className="text-xl font-semibold text-white flex items-center gap-2">
-              <FaBriefcase className="text-indigo-400" />
+          <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-2">
+            <h3 className="text-xl font-semibold text-white flex items-start gap-2">
+              <FaBriefcase className="text-indigo-400 flex-shrink-0 min-w-[20px]" />
               Graduate Engineer Trainee (Data & Azure Domain)
             </h3>
 
             <p className="text-gray-400 flex items-center gap-2 font-medium">
-              <FaCalendarAlt className="text-indigo-400" />
+              <FaCalendarAlt className="text-indigo-400 flex-shrink-0 min-w-[18px]" />
               Jan 2026 – Present
             </p>
           </div>
 
           {/* Company & Location */}
-          <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-2 mt-2">
+          <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-2 mt-2">
             <p className="text-gray-300 flex items-center gap-2">
-              <FaBuilding className="text-indigo-400" />
+              <FaBuilding className="text-indigo-400 flex-shrink-0 min-w-[18px]" />
               LTIMindtree
             </p>
 
             <p className="text-gray-400 flex items-center gap-2">
-              <FaMapMarkerAlt className="text-indigo-400" />
+              <FaMapMarkerAlt className="text-indigo-400 flex-shrink-0 min-w-[18px]" />
               Navi Mumbai, India
             </p>
           </div>
@@ -51,7 +51,7 @@ export default function Experience() {
             ].map((item, index) => (
               <li
                 key={index}
-                className="group flex items-start gap-3 transition"
+                className="group flex items-start gap-3"
               >
                 <span className="w-2 h-2 mt-2 rounded-full shrink-0 bg-indigo-400 group-hover:scale-150 transition"></span>
                 <span className="group-hover:text-white transition">
@@ -65,27 +65,27 @@ export default function Experience() {
         {/* Experience 2 — Internship */}
         <GlassCard>
           {/* Role & Duration */}
-          <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-2">
-            <h3 className="text-xl font-semibold text-white flex items-center gap-2">
-              <FaBriefcase className="text-indigo-400" />
+          <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-2">
+            <h3 className="text-xl font-semibold text-white flex items-start gap-2">
+              <FaBriefcase className="text-indigo-400 flex-shrink-0 min-w-[20px]" />
               Web Content Developer Intern
             </h3>
 
             <p className="text-gray-400 flex items-center gap-2 font-medium">
-              <FaCalendarAlt className="text-indigo-400" />
+              <FaCalendarAlt className="text-indigo-400 flex-shrink-0 min-w-[18px]" />
               June 2024 – July 2024
             </p>
           </div>
 
           {/* Company & Location */}
-          <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-2 mt-2">
+          <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-2 mt-2">
             <p className="text-gray-300 flex items-center gap-2">
-              <FaBuilding className="text-indigo-400" />
+              <FaBuilding className="text-indigo-400 flex-shrink-0 min-w-[18px]" />
               FinnoExpert
             </p>
 
             <p className="text-gray-400 flex items-center gap-2">
-              <FaMapMarkerAlt className="text-indigo-400" />
+              <FaMapMarkerAlt className="text-indigo-400 flex-shrink-0 min-w-[18px]" />
               Pune, Maharashtra, India
             </p>
           </div>
@@ -100,7 +100,7 @@ export default function Experience() {
             ].map((item, index) => (
               <li
                 key={index}
-                className="group flex items-start gap-3 transition"
+                className="group flex items-start gap-3"
               >
                 <span className="w-2 h-2 mt-2 rounded-full shrink-0 bg-indigo-400 group-hover:scale-150 transition"></span>
                 <span className="group-hover:text-white transition">
