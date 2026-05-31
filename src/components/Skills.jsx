@@ -1,17 +1,66 @@
-
 import { useState } from "react"
 import SectionTitle from "./SectionTitle"
 
 export default function Skills() {
   const skillsData = {
-    "Programming Languages": ["Java", "JavaScript", "Python", "SQL"],
-    "Frontend": ["HTML", "CSS", "Bootstrap", "React.js", "Tailwind CSS"],
-    "Backend": ["Node.js", "Express.js", "REST APIs", "Mongoose", "EJS"],
-    "Data & Cloud": ["NumPy", "Pandas", "PySpark", "Azure (Basics)"],
-    "Databases": ["MySQL", "MongoDB", "MongoDB Atlas"],
-    "Tools & Platforms": ["Render", "WordPress", "VS Code", "IntelliJ IDEA", "Git", "GitHub"],
-    "Core Concepts": ["OOP", "DBMS", "SDLC"],
-    "Soft Skills": ["Teamwork", "Problem Solving", "Adaptability"]
+    "Programming Languages": [
+      "Python",
+      "SQL",
+      "Java",
+      "JavaScript"
+    ],
+
+    "Data Engineering & Cloud": [
+      "PySpark",
+      "Azure Cloud Services",
+      "Databricks",
+      "Power BI",
+      "Pandas",
+      "NumPy"
+    ],
+
+    "Frontend": [
+      "HTML",
+      "CSS",
+      "Bootstrap",
+      "React.js",
+      "Tailwind CSS"
+    ],
+
+    "Backend": [
+      "Node.js",
+      "Express.js",
+      "REST APIs",
+      "Mongoose",
+      "EJS"
+    ],
+
+    "Databases": [
+      "MySQL",
+      "MongoDB",
+      "MongoDB Atlas"
+    ],
+
+    "Tools & Platforms": [
+      "Git",
+      "GitHub",
+      "VS Code",
+      "IntelliJ IDEA",
+      "Render",
+      "WordPress"
+    ],
+
+    "Core Concepts": [
+      "OOP",
+      "DBMS",
+      "SDLC"
+    ],
+
+    "Soft Skills": [
+      "Teamwork",
+      "Problem Solving",
+      "Adaptability"
+    ]
   }
 
   const categories = Object.keys(skillsData)
@@ -21,7 +70,7 @@ export default function Skills() {
     <section id="skills" className="py-28 px-6">
       <SectionTitle
         title="Skills"
-        subtitle="My technical expertise & core strengths"
+        subtitle="Technologies, tools and concepts I work with"
       />
 
       <div className="max-w-5xl mx-auto">
@@ -54,7 +103,7 @@ export default function Skills() {
               key={skill}
               className="
                 px-6 py-3 rounded-3xl
-                bg-linear-to-r from-indigo-500/10 to-purple-500/10
+                bg-gradient-to-r from-indigo-500/10 to-purple-500/10
                 border border-indigo-500/30
                 text-gray-200
                 hover:scale-110
