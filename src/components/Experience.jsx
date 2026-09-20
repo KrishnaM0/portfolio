@@ -60,14 +60,14 @@ export default function Experience() {
                 <li className="flex gap-3 group/item">
                   <FaArrowRight className="text-indigo-400 mt-1 shrink-0 group-hover/item:translate-x-1 transition" />
                   <span className="group-hover/item:text-white transition">
-                    Allocated to the Unilever - Europe project as part of the Data Engineering team.
+                    Allocated to the Unilever project as part of the Data Engineering team.
                   </span>
                 </li>
 
                 <li className="flex gap-3 group/item">
                   <FaArrowRight className="text-indigo-400 mt-1 shrink-0 group-hover/item:translate-x-1 transition" />
                   <span className="group-hover/item:text-white transition">
-                    Currently undergoing project onboarding and knowledge transfer sessions.
+                    As part of the Data Integration Team, working with SQL for data validation, incidents, production support, documentation and reporting.
                   </span>
                 </li>
               </ul>

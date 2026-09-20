@@ -18,7 +18,7 @@ export default function About() {
               Data Engineer at <span className="text-indigo-400 font-medium">LTM (LTIMindtree)</span>.
               My journey began with full-stack web development, where I built
               responsive and scalable web applications using modern technologies,
-              including a centralized Smart E-Learning Platform developed as my
+              including a Centralized Smart E-Learning Platform developed as my
               final-year project.
             </p>
 
