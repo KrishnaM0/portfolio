@@ -20,7 +20,7 @@ export default function Home() {
 
         <div className="mt-6 flex flex-wrap justify-center gap-4">
           <a
-            href="/Resume - Krishna Muskawad.pdf"
+            href="/Resume_Krishna_Muskawad.pdf"
             download
             className="
               px-6 py-3
